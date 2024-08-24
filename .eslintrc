@@ -1,0 +1,8 @@
+{
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "plugins": ["security"],
+    "rules": {
+      "security/detect-object-injection": "error"
+    }
+  }
+  
